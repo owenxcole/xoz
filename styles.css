@@ -606,8 +606,6 @@ section { scroll-margin-top: 74px; }
 /* Put the decorative X at the bottom of the About section. */
 .about .x { bottom: 0; }
 
-
-
 /* ---------- Hero background video ---------- */
 .background-videoAboutMe {
   /* Fill the hero independently of the centered content wrapper. */
@@ -1315,6 +1313,11 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   line-height: 1.5;
 }
 
+.project-hashtag {
+  color: #2ea8a4;
+  font-size: small;
+}
+
 .modal-overlay {
   position: fixed;
   z-index: 9999;
@@ -1337,7 +1340,7 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   pointer-events: auto;
 }
 
-.modal-overlay.modal-overlay--logo {
+.modal-overlay.modal-overlay--zoom {
   background: rgba(0, 0, 0, 0.62);
 }
 
@@ -1357,7 +1360,7 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.modal-card--logo {
+.modal-card--zoom {
   border-color: rgba(47, 232, 159, 0.35);
   background: rgba(17, 21, 19, 0.68);
   backdrop-filter: blur(18px);
@@ -1492,7 +1495,7 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   line-height: 1.7;
 }
 
-.modal-card--logo .modal-body {
+.modal-card--zoom .modal-body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1500,14 +1503,14 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   padding: clamp(16px, 1.5vw, 24px);
 }
 
-.modal-card--logo .modal-cat {
+.modal-card--zoom .modal-cat {
   margin: 0;
   font-size: 12px;
   letter-spacing: 0.12em;
   line-height: 1.6;
 }
 
-.modal-card--logo .modal-cat::after {
+.modal-card--zoom .modal-cat::after {
   display: block;
   width: 42px;
   height: 2px;
@@ -1516,23 +1519,23 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   content: "";
 }
 
-.modal-card--logo .modal-title {
+.modal-card--zoom .modal-title {
   margin: 0;
   font-size: clamp(28px, 2.4vw, 36px);
   line-height: 1.12;
 }
 
-.modal-card--logo .modal-desc {
+.modal-card--zoom .modal-desc {
   max-width: 42ch;
   font-size: 16px;
   line-height: 1.8;
 }
 
-.modal-card--logo .modal-image-wrap {
+.modal-card--zoom .modal-image-wrap {
   overflow: hidden;
 }
 
-.modal-card--logo .modal-image-wrap img {
+.modal-card--zoom .modal-image-wrap img {
   transform-origin: center center;
   user-select: none;
   -webkit-user-drag: none;
@@ -1600,14 +1603,14 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
 }
 
 @media (min-width: 768px) {
-  .modal-card--logo {
+  .modal-card--zoom {
     display: grid;
     width: min(100%, 1200px);
     grid-template-columns: minmax(0, 1.5fr) minmax(300px, 0.7fr);
     align-items: center;
   }
 
-  .modal-card--logo .modal-image-wrap {
+  .modal-card--zoom .modal-image-wrap {
     display: flex;
     min-height: min(85vh, 820px);
     min-height: min(85dvh, 820px);
@@ -1615,7 +1618,7 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
     justify-content: center;
   }
 
-  .modal-card--logo .modal-image-wrap img {
+  .modal-card--zoom .modal-image-wrap img {
     width: auto;
     max-width: 100%;
     max-height: calc(100dvh - 80px);
@@ -1778,4 +1781,37 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ---------- Background SVG Sci Fi---------- */
+.my-svg-Background {
+    position: absolute;
+    top: 900px;
+    left: 10%;
+    transform: translateX(-40%);
+    opacity: 0.4;
+    width: 600px;
+    aspect-ratio: 1 / 1;
+
+    background: url("assets/Background/AnimateBackground.svg") center / contain no-repeat;
+
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* ---------- Background SVG Sci Fi---------- */
+.my-svg-Background-right {
+    position: absolute;
+    top: 2700px;
+    left: auto;
+    right: -25%;
+    transform: translateX(-40%) scaleX(-1);
+    opacity: 0.4;
+    width: 600px;
+    aspect-ratio: 1 / 1;
+
+    background: url("assets/Background/AnimateBackground.svg") center / contain no-repeat;
+
+    z-index: 0;
+    pointer-events: none;
 }

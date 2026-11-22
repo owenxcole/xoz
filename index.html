@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shanaka Portfolio</title>
+<meta name="description" content="Portfolio of Shanaka, a multidisciplinary graphic designer based in Japan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#top" data-go data-page-toggle="info"><img src="assets/Shanakalogo.png" alt="SHANAKA"></a>
+    <nav class="pill" aria-label="Primary">
+      <a href="#top" data-go data-page-toggle="info" data-spy="info" class="on" data-i18n>Info</a>
+      <a href="#work" data-go data-page-toggle="work" data-spy="work" data-i18n>Work</a>
+    </nav>
+    <div class="tools">
+      <button class="lang-btn" id="langBtn" type="button" lang="ja" aria-label="Switch site language to Japanese">日本人</button>
+      <button class="dots-btn" id="menuBtn" type="button" aria-label="Open section menu" aria-expanded="false" aria-controls="navDrawer">
+        <svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="2" cy="2" r="1.3"/><circle cx="10" cy="2" r="1.3"/><circle cx="2" cy="10" r="1.3"/><circle cx="10" cy="10" r="1.3"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+<aside class="nav-drawer" id="navDrawer" aria-hidden="true" inert>
+  <div class="drawer-header">
+    <span class="drawer-title" data-i18n>Navigation // Menu</span>
+    <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">&times;</button>
+  </div>
+  <nav class="drawer-links" aria-label="Sections">
+    <a class="drawer-link" href="#about" data-go><span data-i18n>About me</span><span class="number">01</span></a>
+    <a class="drawer-link" href="#what" data-go><span data-i18n>What I do</span><span class="number">02</span></a>
+    <a class="drawer-link" href="#expertise" data-go><span data-i18n>Expertise</span><span class="number">03</span></a>
+    <a class="drawer-link" href="#work" data-go data-page-toggle="work"><span data-i18n>Featured Projects</span><span class="number">04</span></a>
+    <a class="drawer-link" href="#contact" data-go><span data-i18n>Contact me</span><span class="number">05</span></a>
+  </nav>
+  <div class="drawer-footer">
+    <p data-i18n>Portfolio © 2026</p>
+    <p data-i18n>Created by Shanaka Silva</p>
+  </div>
+</aside>
+
+<main>
+  
+  <div id="infoPage">
+  
+  <div class="hero">
+    <div class="wrap">
+      <img class="portrait" src="assets/hero photo.png" alt="Portrait of Shanaka, looking down" width="1980" height="1080">
+      <img class="glitch-image glitch-red" src="assets/hero photo.png" alt="" aria-hidden="true" width="1980" height="1080">
+      <img class="glitch-image glitch-blue" src="assets/hero photo.png" alt="" aria-hidden="true" width="720" height="1080">
+      <img class="glitch-image glitch-red" src="assets/hero photo.png" alt="" aria-hidden="true" width="1980" height="1080">
+      
+      <div class="glitch-bars" aria-hidden="true"></div>
+
+      
+      <div class="hero-cap"><b data-i18n>Graphic Designer</b> <span data-i18n>UI/UX · WEB<br>DIGITAL MARKETING · VISUAL CONTENT</span></div>
+      
+      
+      
+      <div class="hero-links">
+        <a href="#expertise" data-go data-i18n>Expertise</a>
+        <a href="https://www.behance.net/shanakasilva" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.linkedin.com/in/shanaka-silva-51997885/" target="_blank" rel="noopener">LinkedIn</a>
+        <i></i>
+
+
+
+
+
+      </div>
+      <video class="background-videoAboutMe" autoplay muted loop playsinline>
+    <source src="VideoX.mp4" type="video/mp4"> </video> 
+    </div>
+    
+  </div>
+  
+
+
+
+
+
+  
+  <div class="hero-controls wrap">
+  <div class="chev">
+    
+  <a href="#what" data-go aria-label="Scroll to What I do">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 337.02 168.85">
+  <polygon points="295.77 0 168.51 98.72 41.26 0 0 0 168.51 168.85 337.02 0 295.77 0"/>
+
+
+  
+</svg></a>
+</div>
+
+
+
+<div class="StarXAbutton">
+  
+  
+  <div class="Musichint" id="Musichint">
+  Touch Here <span class="music-hint-arrow" aria-hidden="true">&rarr;</span></div>
+ 
+
+  <button id="StarXAudio-button" type="button" aria-label="Toggle background music">
+
+<svg viewBox="0 0 220 100" width="180" xmlns="http://www.w3.org/2000/svg">
+
+  <g stroke="#8dffbb" stroke-width="3" stroke-linecap="round">
+
+    <line x1="30" x2="30" y1="45" y2="55">
+      <animate attributeName="y1" values="45;20;45" dur="0.6s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="55;80;55" dur="0.6s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="55" x2="55" y1="40" y2="60">
+      <animate attributeName="y1" values="40;10;40" dur="0.8s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="60;90;60" dur="0.8s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="80" x2="80" y1="45" y2="55">
+      <animate attributeName="y1" values="45;25;45" dur="0.5s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="55;75;55" dur="0.5s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="105" x2="105" y1="35" y2="65">
+      <animate attributeName="y1" values="35;5;35" dur="0.7s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="65;95;65" dur="0.7s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="130" x2="130" y1="45" y2="55">
+      <animate attributeName="y1" values="45;20;45" dur="0.6s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="55;80;55" dur="0.6s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="155" x2="155" y1="40" y2="60">
+      <animate attributeName="y1" values="40;10;40" dur="0.9s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="60;90;60" dur="0.9s" repeatCount="indefinite"></animate>
+    </line>
+
+    <line x1="180" x2="180" y1="45" y2="55">
+      <animate attributeName="y1" values="45;25;45" dur="0.5s" repeatCount="indefinite"></animate>
+      <animate attributeName="y2" values="55;75;55" dur="0.5s" repeatCount="indefinite"></animate>
+    </line>
+
+  </g>
+</svg>
+
+  
+
+</button>
+</div>
+</div>
+
+  
+<audio id="StarX-audio" autoplay loop>
+    <source src="assets/StarX.mp3" type="audio/mpeg">
+    <source src="assets/StarX.wav" type="audio/wav">
+</audio>
+
+<div class="my-svg-Background"></div>
+<div class="my-svg-Background-right"></div>
+  
+  <section class="about" id="about">
+
+
+    <div class="wrap">
+      <div class="about-heading">
+        <span class="about-index" aria-hidden="true">01 / PROFILE</span>
+        <h2 data-i18n>About me</h2>
+      </div>
+      <div class="about-layout">
+        <p class="lead" data-i18n>I’m a multidisciplinary designer with more than 10 years of experience across graphic design, digital marketing, visual communication, and creative technology. My experience covers a wide range of projects, including branding, advertising materials, social media content, UI/UX design, website design, photography, video, and digital campaigns.</p>
+        <p class="about-details" id="aboutDetails" data-i18n>I enjoy working across different stages of a project — from developing an initial concept and visual direction to creating the final design and bringing it to life digitally. With a background that also includes IT, computer hardware, networking, and web technologies, I approach design from both a creative and technical perspective. Currently based in Japan, I continue to expand my skills in web development, digital experiences, photography, and emerging technologies.</p>
+      </div>
+      <button class="about-more-toggle" id="aboutMoreToggle" type="button" aria-expanded="false" aria-controls="aboutDetails">
+        <span id="aboutMoreText" data-i18n>See more</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3 6 5 5 5-5" /></svg>
+      </button>
+    </div>
+
+  
+  </section>
+
+  
+  <section class="skills" id="what">
+    <div class="wrap">
+      <div class="rule" aria-hidden="true"></div>
+      <div class="skills-heading">
+        <h2 class="big" data-i18n>What I do</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div>
+            <div class="skill-overview"><h3><em aria-hidden="true">01</em><span data-i18n>Graphic Design</span></h3></div>
+            <ul class="skill-tags"><li data-i18n>Brand Identity</li><li data-i18n>Logo Design</li><li data-i18n>Typography</li><li data-i18n>Layout</li><li data-i18n>Print Design</li><li data-i18n>Advertising</li></ul>
+          </div>
+         
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.43 296.43">
+
+  
+  <defs>
+    <filter id="green-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  
+  <g id="logo">
+
+    
+    <polygon points="176.87 116.54 148.21 166.19 111.64 229.53 54.31 229.53 148.21 66.89 176.87 116.54" style="fill:#666;"> 
+/> </polygon>
+    
+
+    
+    <polygon points="242.11 229.53 184.78 229.53 155.36 178.58 184.03 128.92 242.11 229.53" style="fill:#8dffbb;" filter="url(#green-glow)">
+
+      
+      <animate attributeName="opacity" values="1;0.7;1" dur="2.5s" repeatCount="indefinite"></animate>
+    
+
+<animate
+  attributeName="opacity"
+  values="1; 1; 0.2; 1; 0.45; 1"
+  keyTimes="0; 0.85; 0.86; 0.87; 0.88; 1"
+  dur="3s"
+  repeatCount="indefinite"
+/>
+    </polygon>
+
+  </g>
+
+  
+  <g fill="none" stroke="#878787" stroke-width="0.75" stroke-miterlimit="10">
+
+    
+    <line x1="0" y1="66.89" x2="296.43" y2="66.89" stroke-dasharray="296.43" stroke-dashoffset="296.43">
+
+      <animate attributeName="stroke-dashoffset" values="296.43;0;0;296.43" keyTimes="0;0.35;0.75;1" dur="5s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.2;0.75;1" dur="5s" repeatCount="indefinite"></animate>
+    </line>
+
+    
+    <line x1="241.74" y1="0" x2="241.74" y2="296.43" stroke-dasharray="296.43" stroke-dashoffset="296.43">
+
+      <animate attributeName="stroke-dashoffset" values="296.43;0;0;296.43" keyTimes="0;0.35;0.75;1" dur="5s" begin="0.3s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="5s" repeatCount="indefinite"></animate>
+    </line>
+
+    
+    <line x1="54.69" y1="0" x2="54.69" y2="296.43" stroke-dasharray="296.43" stroke-dashoffset="296.43">
+
+      <animate attributeName="stroke-dashoffset" values="296.43;0;0;296.43" keyTimes="0;0.35;0.75;1" dur="5s" begin="0.6s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="5s" repeatCount="indefinite"></animate>
+    </line>
+
+    
+    <line x1="0" y1="229.53" x2="296.43" y2="229.53" stroke-dasharray="296.43" stroke-dashoffset="296.43">
+
+      <animate attributeName="stroke-dashoffset" values="296.43;0;0;296.43" keyTimes="0;0.35;0.75;1" dur="5s" begin="0.9s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="5s" repeatCount="indefinite"></animate>
+    </line>
+
+  </g>
+
+   
+  <g>
+    <circle cx="148.21" cy="148.21" r="124.02" fill="none" stroke="#8dffbb" stroke-width="3" stroke-linecap="round" stroke-dasharray="70 1344">
+      <animateTransform attributeName="transform" type="rotate" from="0 148.21 148.21" to="360 148.21 148.21" dur="16s" repeatCount="indefinite"></animateTransform>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"></animate>
+    </circle>
+  </g>
+
+  
+  
+  <circle cx="148.21" cy="148.21" r="124.02" fill="none" stroke="#686868" stroke-width="1.23">
+
+    
+  </circle>
+
+</svg>
+
+        </article>
+        <article class="card">
+          <div>
+            <div class="skill-overview"><h3><em aria-hidden="true">02</em><span data-i18n>UI/UX &amp; Web Design</span></h3></div>
+            <ul class="skill-tags"><li data-i18n>Interface Design</li><li data-i18n>Wireframing</li><li data-i18n>Visual Hierarchy</li><li data-i18n>Responsive Design</li><li data-i18n>User Experience</li></ul>
+          </div>
+          <svg viewBox="0 0 120 90" aria-hidden="true">
+            <rect x="2" y="2" width="116" height="86" rx="4" fill="none" stroke="#8b8f8d" stroke-width="1"/>
+            <path d="M2 16H118" stroke="#8b8f8d" stroke-width="1"/>
+            <circle cx="10" cy="9" r="2" fill="#e8574d"/><circle cx="18" cy="9" r="2" fill="#e8b44d"/><circle cx="26" cy="9" r="2" fill="#4de890"/>
+            <rect x="10" y="24" width="48" height="30" fill="none" stroke="#8b8f8d" stroke-width="1.2">
+              <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="0s" repeatCount="indefinite"/> </rect>
+            <path d="M10 24 58 54M58 24 10 54" stroke="#8b8f8d" stroke-width="1">
+              <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="0s" repeatCount="indefinite"/> </path>
+            <text x="68" y="36" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="700" fill="#3fe08f">Aa
+            <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="1s" repeatCount="indefinite"/> </text>
+            <path d="M68 44H108M68 50H100" stroke="#8b8f8d" stroke-width="1.4">
+              <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="0s" repeatCount="indefinite"/> </path>
+            <rect x="10" y="62" width="28" height="18" fill="none" stroke="#8b8f8d" stroke-width="1.2">
+            <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="1s" repeatCount="indefinite"/> </rect>     
+             <rect x="46" y="62" width="28" height="18" fill="none" stroke="#8b8f8d" stroke-width="1.2">
+               <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="2s" repeatCount="indefinite"/> </rect>
+             
+             <rect x="82" y="62" width="28" height="18" fill="none" stroke="#8b8f8d" stroke-width="1.2">
+             <animate attributeName="opacity" values="0;1;1;0" dur="6s" begin="3s" repeatCount="indefinite"/> </rect>
+          </svg>
+        </article>
+        <article class="card">
+          <div>
+            <div class="skill-overview"><h3><em aria-hidden="true">03</em><span data-i18n>Digital</span></h3></div>
+            <ul class="skill-tags"><li data-i18n>Social Media Design</li><li data-i18n>Digital Marketing</li><li data-i18n>Web Design</li><li>WordPress</li><li>HTML, CSS, JS</li></ul>
+          </div>
+          
+          
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.99 190">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #757575;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6 {
+        font-size: 11px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-5, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18 {
+        fill: #8dffbb;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19, .cls-20 {
+        fill: #17b8ff;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9, .cls-3, .cls-10, .cls-12 {
+        font-size: 11px;
+      }
+
+      .cls-21, .cls-22, .cls-23, .cls-24 {
+        fill: #c0d15a;
+      }
+
+      .cls-21, .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22, .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-26 {
+        font-family: consolas';
+      }
+
+      .cls-27 {
+        fill: #4c4c4c;
+      }
+
+      .cls-28 {
+        fill: #ff5154;
+      }
+
+      .cls-24 {
+        letter-spacing: .01em;
+      }
+
+      .cls-29 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11, .cls-30 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: .02em;
+      }
+
+      .cls-13 {
+        letter-spacing: .02em;
+      }
+
+      .cls-31 {
+        fill: #30c04f;
+      }
+
+      .cls-14 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-32 {
+        fill: #f9c100;
+      }
+
+      .cls-16 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-18 {
+        letter-spacing: .02em;
+      }
+
+      .cls-33 {
+        fill: #262626;
+        stroke: #4c4c4c;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-34 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-28" cx="25.03" cy="16.32" r="4.34"/>
+  <circle class="cls-32" cx="40.45" cy="16.32" r="4.34"/>
+  <circle class="cls-31" cx="55.88" cy="16.32" r="4.34"/>
+  <line class="cls-33" x1="2.11" y1="28.71" x2="247.88" y2="28.71"/>
+  <path class="cls-27" d="M236.02,2.11c6.55,0,11.86,5.31,11.86,11.86v158.26c0,6.55-5.31,11.86-11.86,11.86H13.97c-6.55,0-11.86-5.31-11.86-11.86V13.97C2.11,7.42,7.42,2.11,13.97,2.11h222.04M236.02,0H13.97C6.27,0,0,6.27,0,13.97v158.26c0,7.71,6.27,13.97,13.97,13.97h222.04c7.71,0,13.97-6.27,13.97-13.97V13.97c0-7.71-6.27-13.97-13.97-13.97h0Z"/>
+  <text class="cls-26" transform="translate(38.57 52.03)"><tspan class="cls-6"><tspan class="cls-1" x="0" y="0">&lt;!</tspan><tspan class="cls-23" x="9.77" y="0">do</tspan><tspan class="cls-24" x="22.93" y="0">c</tspan><tspan class="cls-21" x="28.39" y="0">t</tspan><tspan class="cls-22" x="32.41" y="0">ype </tspan><tspan class="cls-19" x="53.14" y="0">h</tspan><tspan class="cls-20" x="59.66" y="0">tml</tspan><tspan class="cls-1" x="76.23" y="0">&gt;</tspan></tspan><tspan class="cls-2"><tspan x="0" y="18.72" xml:space="preserve"> &lt;link </tspan><tspan class="cls-30" x="29.73" y="18.72">r</tspan><tspan x="33.48" y="18.72">el=&quot;s</tspan><tspan class="cls-29" x="57.92" y="18.72">t</tspan><tspan x="61.94" y="18.72">ylesheet&quot; h</tspan><tspan class="cls-30" x="116.3" y="18.72">r</tspan><tspan x="120.05" y="18.72">ef=&quot;s</tspan><tspan class="cls-25" x="145.15" y="18.72">t</tspan><tspan x="149.17" y="18.72">yl</tspan><tspan class="cls-34" x="157.53" y="18.72">e</tspan><tspan x="163.31" y="18.72">.css&quot;&gt;</tspan></tspan><tspan class="cls-2" x="0" y="37.45" xml:space="preserve">    &lt;title&gt;</tspan><tspan class="cls-10" x="43.44" y="37.45">Shana</tspan><tspan class="cls-12" x="75.92" y="37.45">k</tspan><tspan class="cls-9" x="82.08" y="37.45">a</tspan><tspan class="cls-3" x="88.18" y="37.45">&lt;</tspan><tspan class="cls-2" x="95.72" y="37.45">/title&gt;</tspan><tspan class="cls-6"><tspan class="cls-1" x="0" y="56.17" xml:space="preserve">    &lt;div class=&quot;</tspan><tspan class="cls-16" x="68.91" y="56.17">P</tspan><tspan class="cls-15" x="74.9" y="56.17">o</tspan><tspan class="cls-18" x="81.4" y="56.17">r</tspan><tspan class="cls-15" x="85.55" y="56.17">t</tspan><tspan class="cls-14" x="89.46" y="56.17">f</tspan><tspan class="cls-17" x="92.76" y="56.17">olios</tspan><tspan class="cls-1" x="115.99" y="56.17">&quot;&gt;</tspan></tspan><tspan class="cls-6"><tspan class="cls-1" x="0" y="74.89" xml:space="preserve">        &lt;h1&gt;</tspan><tspan class="cls-7" x="46.79" y="74.89">D</tspan><tspan class="cls-8" x="54.71" y="74.89">e</tspan><tspan class="cls-11" x="60.64" y="74.89">v</tspan><tspan class="cls-15" x="66.21" y="74.89">eloper</tspan><tspan class="cls-1" x="97.94" y="74.89">&lt;/h1&gt;</tspan></tspan><tspan class="cls-6"><tspan class="cls-1" x="0" y="93.62" xml:space="preserve">        &lt;h2&gt;</tspan><tspan class="cls-15" x="46.79" y="93.62">Zaph</tspan><tspan class="cls-13" x="72.33" y="93.62">k</tspan><tspan class="cls-15" x="78.07" y="93.62">iel</tspan><tspan class="cls-1" x="89.56" y="93.62">&lt;/h2&gt;</tspan></tspan><tspan class="cls-5"><tspan x="0" y="112.34">&gt;</tspan></tspan></text>
+  <text class="cls-4" transform="translate(20.03 52.03)"><tspan x="0" y="0">1</tspan><tspan x="0" y="18.72">2</tspan><tspan x="0" y="37.45">3</tspan><tspan x="0" y="56.17">4</tspan><tspan x="0" y="74.89">5</tspan><tspan x="0" y="93.62">6</tspan><tspan x="0" y="112.34">7</tspan></text>
+
+  <rect class="cls-15" x="52.31" y="152.24" width="7.15" height="12.13">
+<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"></animate>
+</rect>
+</svg>
+
+
+
+        </article>
+        <article class="card">
+          <div>
+            <div class="skill-overview"><h3><em aria-hidden="true">04</em><span data-i18n>Visual Content</span></h3></div>
+            <ul class="skill-tags"><li data-i18n>Photography</li><li data-i18n>Photo Editing</li><li data-i18n>Color Grading</li><li data-i18n>Video Editing</li><li data-i18n>Motion Content</li></ul>
+          </div>
+         <svg class="gradient-rotating" viewBox="0 0 200 200" 
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="ringGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8dffbb">
+        <animate attributeName="stop-color"
+          values="#8dffbb;#55c8ff;#ff5555;#8dffbb"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#55aaff">
+        <animate attributeName="stop-color"
+          values="#55aaff;#ff5555;#8dffbb;#55aaff"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%"
+            width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  
+  <circle cx="100" cy="100" r="55"
+          fill="none"
+          stroke="url(#ringGradient)"
+          stroke-width="6"
+          filter="url(#softGlow)"/>
+
+  
+  <g>
+    <circle cx="155" cy="100" r="3.2"
+            fill="white"
+            filter="url(#softGlow)"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 100 100; 360 100 100; 0 100 100"
+      keyTimes="0; 0.5; 1"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </g>
+
+</svg>
+        </article>
+        <article class="card">
+          <div><div class="skill-overview"><h3><em aria-hidden="true">05</em><span data-i18n>Technology</span></h3></div>
+            <ul class="skill-tags"><li data-i18n>Technical Troubleshooting</li><li data-i18n>Computer Hardware</li><li data-i18n>Networking</li><li data-i18n>User Support</li></ul></div>
+          
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.77 194.33">
+  <path d="M235.91,2c6.55,0,11.86,5.31,11.86,11.86v139.78c0,6.55-5.31,11.86-11.86,11.86H13.86c-6.55,0-11.86-5.31-11.86-11.86V13.86C2,7.31,7.31,2,13.86,2h222.04M235.91,0H13.86C6.22,0,0,6.22,0,13.86v139.78c0,7.64,6.22,13.86,13.86,13.86h222.04c7.64,0,13.86-6.22,13.86-13.86V13.86c0-7.64-6.22-13.86-13.86-13.86h0Z" style="fill: #4c4c4c;"/>
+  <line x1=".9" y1="144.77" x2="248.56" y2="144.77" style="fill: none; stroke: #4c4c4c; stroke-miterlimit: 10; stroke-width: 2px;"/>
+  <circle cx="124.89" cy="155.49" r="4.19" style="fill: none; stroke: #4c4c4c; stroke-miterlimit: 10; stroke-width: 1.56px;"/>
+
+  
+  <g>
+    <path d="M137.49,81.48v-11.9l-8.17-2.1c-.8-3.21-2.07-6.23-3.72-8.98l4.3-7.26-8.41-8.41-7.26,4.3c-2.76-1.66-5.78-2.92-8.98-3.72l-2.1-8.17h-11.9l-2.1,8.17c-3.21.8-6.23,2.07-8.98,3.72l-7.26-4.3-8.41,8.41,4.3,7.26c-1.66,2.76-2.92,5.78-3.72,8.98l-8.17,2.1v11.9l8.17,2.1c.8,3.21,2.07,6.23,3.72,8.98l-4.3,7.26,8.41,8.41,7.26-4.3c2.76,1.66,5.78,2.92,8.98,3.72l2.1,8.17h11.9l2.1-8.17c3.21-.8,6.23-2.07,8.98-3.72l7.26,4.3,8.41-8.41-4.3-7.26c1.66-2.76,2.92-5.78,3.72-8.98l8.17-2.1ZM97.19,94.98c-10.74,0-19.45-8.71-19.45-19.45s8.71-19.45,19.45-19.45,19.45,8.71,19.45,19.45-8.71,19.45-19.45,19.45Z" style="fill: none; stroke: #8dffbb; stroke-miterlimit: 10; stroke-width: 2px;"/>
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 97.19 75.53" to="360 97.19 75.53"
+      dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  
+  <g>
+    <path d="M193.25,94.71v-7.44l-5.11-1.31c-.5-2.01-1.29-3.9-2.33-5.62l2.69-4.54-5.26-5.26-4.54,2.69c-1.73-1.04-3.62-1.83-5.62-2.33l-1.31-5.11h-7.44l-1.31,5.11c-2.01.5-3.9,1.29-5.62,2.33l-4.54-2.69-5.26,5.26,2.69,4.54c-1.04,1.73-1.83,3.62-2.33,5.62l-5.11,1.31v7.44l5.11,1.31c.5,2.01,1.29,3.9,2.33,5.62l-2.69,4.54,5.26,5.26,4.54-2.69c1.73,1.04,3.62,1.83,5.62,2.33l1.31,5.11h7.44l1.31-5.11c2.01-.5,3.9-1.29,5.62-2.33l4.54,2.69,5.26-5.26-2.69-4.54c1.04-1.73,1.83-3.62,2.33-5.62l5.11-1.31ZM168.03,103.16c-6.72,0-12.17-5.45-12.17-12.17s5.45-12.17,12.17-12.17,12.17,5.45,12.17,12.17-5.45,12.17-12.17,12.17Z" style="fill: none; stroke: #8dffbb; stroke-miterlimit: 10; stroke-width: 2px;"/>
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 168.03 90.99" to="-360 168.03 90.99"
+      dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <path d="M199.79,181.22c4.89,0,8.85,3.96,8.85,8.85v2.25H41.13v-2.25c0-4.89,3.96-8.85,8.85-8.85h149.82M199.79,179.22H49.98c-5.98,0-10.85,4.87-10.85,10.85v4.25h171.52v-4.25c0-5.98-4.87-10.85-10.85-10.85h0Z" style="fill: #4c4c4c;"/>
+</svg>
+
+
+
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="exp" id="expertise">
+    <div class="wrap">
+      <div class="rule" aria-hidden="true"></div>
+      <h2 class="big" data-i18n>Expertise</h2>
+      <div class="table">
+        <div class="row"><div class="cat" data-i18n>Design</div><ul>
+          <li class="tool"><img class="tool-icon" src="assets/Photoshop.svg" alt=""><b>Adobe Photoshop</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Illustrator.svg" alt=""><b>Adobe Illustrator</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/CorelDRAW.svg" alt=""><b>CorelDRAW</b><span class="meter"><i style="--lv:95%"></i></span></li>
+        </ul></div>
+        <div class="row"><div class="cat" data-i18n>Video</div><ul>
+          <li class="tool"><img class="tool-icon" src="assets/Davinci.svg" alt=""><b>DaVinci Resolve</b><span class="meter"><i style="--lv:75%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Premiere.svg" alt=""><b>Adobe Premiere Pro</b><span class="meter"><i style="--lv:75%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Lightroom.svg" alt=""><b>Adobe Lightroom</b><span class="meter"><i style="--lv:75%"></i></span></li>
+        </ul></div>
+        <div class="row"><div class="cat" data-i18n>Web</div><ul>
+          <li class="tool"><img class="tool-icon" src="assets/Wordpress.svg" alt=""><b>WordPress</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Figma.svg" alt=""><b>Figma</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Visualstudio.svg" alt=""><b>Visual Studio</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Rive.svg" alt=""><b>Rive</b><span class="meter"><i style="--lv:75%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Html.svg" alt=""><b>HTML</b><span class="meter"><i style="--lv:42%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Css.svg" alt=""><b>CSS</b><span class="meter"><i style="--lv:42%"></i></span></li>
+          <li class="tool"><span class="tool-icon tool-icon--js" aria-hidden="true">JS</span><b>JavaScript</b><span class="meter"><i style="--lv:42%"></i></span></li>
+        </ul></div>
+        <div class="row"><div class="cat" data-i18n>Audio</div><ul>
+          <li class="tool"><img class="tool-icon" src="assets/Abletonlive.svg" alt=""><b>Ableton Live</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Fruityloops.svg" alt=""><b>Fruity Loops</b><span class="meter"><i style="--lv:95%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Adobeaudition.svg" alt=""><b>Adobe Audition</b><span class="meter"><i style="--lv:95%"></i></span></li>
+        </ul></div>
+        <div class="row"><div class="cat" data-i18n>Other</div><ul>
+          <li class="tool"><img class="tool-icon" src="assets/Autocad.svg" alt=""><b>AutoCAD</b><span class="meter"><i style="--lv:42%"></i></span></li>
+          <li class="tool"><img class="tool-icon" src="assets/Unrealengine.svg" alt=""><b>Unreal Engine</b><span class="meter"><i style="--lv:42%"></i></span></li>
+        </ul></div>
+      </div>
+    </div>
+  </section>
+
+  
+    <section id="contact">
+      <div class="container">
+        
+        <div class="wrap">
+          <div>
+            <div class="section-accent-line"></div>
+            <h2 data-i18n>Contact me</h2>
+          </div>
+        </div>
+
+        <div class="wrap contact-grid delay-1">
+          
+          <div class="contact-socials">
+            
+            <a href="https://www.behance.net/shanakasilva" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Behance Profile">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Behance</title><path d="M16.969 16.927a2.561 2.561 0 0 0 1.901.677 2.501 2.501 0 0 0 1.531-.475c.362-.235.636-.584.779-.99h2.585a5.091 5.091 0 0 1-1.9 2.896 5.292 5.292 0 0 1-3.091.88 5.839 5.839 0 0 1-2.284-.433 4.871 4.871 0 0 1-1.723-1.211 5.657 5.657 0 0 1-1.08-1.874 7.057 7.057 0 0 1-.383-2.393c-.005-.8.129-1.595.396-2.349a5.313 5.313 0 0 1 5.088-3.604 4.87 4.87 0 0 1 2.376.563c.661.362 1.231.87 1.668 1.485a6.2 6.2 0 0 1 .943 2.133c.194.821.263 1.666.205 2.508h-7.699c-.063.79.184 1.574.688 2.187ZM6.947 4.084a8.065 8.065 0 0 1 1.928.198 4.29 4.29 0 0 1 1.49.638c.418.303.748.711.958 1.182.241.579.357 1.203.341 1.83a3.506 3.506 0 0 1-.506 1.961 3.726 3.726 0 0 1-1.503 1.287 3.588 3.588 0 0 1 2.027 1.437c.464.747.697 1.615.67 2.494a4.593 4.593 0 0 1-.423 2.032 3.945 3.945 0 0 1-1.163 1.413 5.114 5.114 0 0 1-1.683.807 7.135 7.135 0 0 1-1.928.259H0V4.084h6.947Zm-.235 12.9c.308.004.616-.029.916-.099a2.18 2.18 0 0 0 .766-.332c.228-.158.411-.371.534-.619.142-.317.208-.663.191-1.009a2.08 2.08 0 0 0-.642-1.715 2.618 2.618 0 0 0-1.696-.505h-3.54v4.279h3.471Zm13.635-5.967a2.13 2.13 0 0 0-1.654-.619 2.336 2.336 0 0 0-1.163.259 2.474 2.474 0 0 0-.738.62 2.359 2.359 0 0 0-.396.792c-.074.239-.12.485-.137.734h4.769a3.239 3.239 0 0 0-.679-1.785l-.002-.001Zm-13.813-.648a2.254 2.254 0 0 0 1.423-.433c.399-.355.607-.88.56-1.413a1.916 1.916 0 0 0-.178-.891 1.298 1.298 0 0 0-.495-.533 1.851 1.851 0 0 0-.711-.274 3.966 3.966 0 0 0-.835-.073H3.241v3.631h3.293v-.014ZM21.62 5.122h-5.976v1.527h5.976V5.122Z"/></svg>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/shanaka-silva-51997885" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            
+            <a href="https://www.instagram.com/zaphkiel.xz/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram Profile">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+              <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+
+          
+          <div class="contact-detail-box" data-copy="inspire.esteem.flourish@gmail.com" title="Click to copy email" role="button" tabindex="0" aria-label="Copy email address">
+            <div class="contact-detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail-label" data-i18n="" data-en="Email">Email</div>
+              <div class="contact-detail-value">
+                <span>inspire.esteem.flourish@gmail.com</span>
+                <span class="copy-badge" aria-live="polite">Copy</span>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="contact-detail-box" data-copy="+8180 2792 8141" title="Click to copy phone number" role="button" tabindex="0" aria-label="Copy phone number">
+            <div class="contact-detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail-label" data-i18n="" data-en="Phone">Phone</div>
+              <div class="contact-detail-value">
+                <span>+8180 2792 8141 (Japan)</span>
+                <span class="copy-badge" aria-live="polite">Copy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="wrap footer-bottom">
+          <p class="footer-copy"><span class="footer-copy-brand" data-i18n>Portfolio © 2026</span> <span data-i18n>Shanaka Silva. All rights reserved.</span></p>
+          <a href="#top" data-go data-spy="info" class="on" data-page-toggle="info">
+            <span data-i18n>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+  
+  
+  <div class="work-page" id="workPage" aria-hidden="true" hidden>
+    <section class="work-section" aria-labelledby="work-title">
+      <div class="work-container">
+        
+        <header class="work-header">
+          <div>
+            <p class="work-eyebrow" data-i18n>Portfolio / Selected Projects</p>
+            <div class="section-accent-line" aria-hidden="true"></div>
+            <h1 class="section-title" id="work-title" data-i18n>Featured Projects</h1>
+            <p class="section-intro" data-i18n>A selection of logo design, graphic design and UI/UX projects.</p>
+          </div>
+        </header>
+
+        
+        <div class="work-filter-bar" role="group" aria-label="Filter projects">
+          <button class="work-filter-btn active" type="button" data-filter="all" aria-pressed="true" data-i18n>All Projects</button>
+          <button class="work-filter-btn" type="button" data-filter="graphic" aria-pressed="false" data-i18n>Graphic Design</button>
+          <button class="work-filter-btn" type="button" data-filter="logo" aria-pressed="false" data-i18n>Logo</button>
+          <button class="work-filter-btn" type="button" data-filter="uiux" aria-pressed="false" data-i18n>UI/UX Design</button>
+        </div>
+
+        
+        <div class="projects-grid">
+          <article class="project-card project-card--top-thumbnail" data-category="graphic"
+            data-details="A promotional leaflet designed for Namegawa Onsen, located in Yonezawa, Yamagata, Japan. The design focuses on presenting the natural beauty, unique hot spring characteristics, and traditional Japanese onsen experience. #AdobePhotoshop #AdobeIllustrator"
+            data-details-ja="山形県米沢市にある滑川温泉のプロモーションリーフレットです。自然の美しさや温泉ならではの魅力、日本の伝統的な温泉文化を紹介しています。 #AdobePhotoshop #AdobeIllustrator">
+            <div class="project-thumb-wrap">
+              <img src="assets/designs/Leaflet.jpg" alt="Namegawa Onsen promotional leaflet" data-alt-ja="滑川温泉のプロモーションリーフレット" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>Graphic Design // Leaflet</span>
+              <h2 class="project-title" data-i18n>Promotional Leaflet Design</h2>
+              <p class="project-desc"><span data-i18n>A promotional leaflet designed for Namegawa Onsen, located in Yonezawa, Yamagata, Japan. The design focuses on presenting the natural beauty, unique hot spring characteristics, and traditional Japanese onsen experience.</span> <span class="project-hashtag">#AdobePhotoshop #AdobeIllustrator</span></p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="graphic"
+            data-details="Social media graphic design project."
+            data-details-ja="ソーシャルメディア向けのグラフィックデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/SocialM/social 1.jpg" alt="Social media design 1" data-alt-ja="ソーシャルメディアデザイン 1" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>Graphic Design // Social Media</span>
+              <h2 class="project-title" data-i18n>Social Media Design</h2>
+              <p class="project-desc" data-i18n>Social media graphic design project.</p>
+              <span class="project-hashtag">#AdobePhotoshop</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="graphic"
+            data-details="Social media graphic design project."
+            data-details-ja="ソーシャルメディア向けのグラフィックデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/SocialM/social 2.jpg" alt="Social media design 2" data-alt-ja="ソーシャルメディアデザイン 2" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>Graphic Design // Social Media</span>
+              <h2 class="project-title" data-i18n>Social Media Design</h2>
+              <p class="project-desc" data-i18n>Social media graphic design project.</p>
+              <span class="project-hashtag">#AdobePhotoshop</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="graphic"
+            data-details="Social media graphic design project."
+            data-details-ja="ソーシャルメディア向けのグラフィックデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/SocialM/social 3.jpg" alt="Social media design 3" data-alt-ja="ソーシャルメディアデザイン 3" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>Graphic Design // Social Media</span>
+              <h2 class="project-title" data-i18n>Social Media Design </h2>
+              <p class="project-desc" data-i18n>Social media graphic design project.</p>
+              <span class="project-hashtag">#AdobePhotoshop</span>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="uiux"
+            data-details="Website UI/UX design project."
+            data-details-ja="ウェブサイトのUI/UXデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/Web designs/web1.jpg" alt="Web design 1" data-alt-ja="ウェブデザイン 1" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>UI/UX // Web Design</span>
+              <h2 class="project-title" data-i18n>Web UI Design</h2>
+              <p class="project-desc" data-i18n>Website UI/UX design project.</p>
+              <span class="project-hashtag">#Figma #AdobeXD #Illustrator #Photoshop #xyris #Rive</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="uiux"
+            data-details="Website UI/UX design project."
+            data-details-ja="ウェブサイトのUI/UXデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/Web designs/web2.jpg" alt="Web design 2" data-alt-ja="ウェブデザイン 2" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>UI/UX // Web Design</span>
+              <h2 class="project-title" data-i18n>Web UI Design</h2>
+              <p class="project-desc" data-i18n>Website UI/UX design project.</p>
+              <span class="project-hashtag">#Figma #AdobeXD #Illustrator #Photoshop #xyris #Rive</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="uiux"
+            data-details="Website UI/UX design project."
+            data-details-ja="ウェブサイトのUI/UXデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/Web designs/web3.jpg" alt="Web design 3" data-alt-ja="ウェブデザイン 3" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>UI/UX // Web Design</span>
+              <h2 class="project-title" data-i18n>Web UI Design</h2>
+              <p class="project-desc" data-i18n>Website UI/UX design project.</p>
+              <span class="project-hashtag">#Figma #AdobeXD #Illustrator #Photoshop #xyris #Rive</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="uiux"
+            data-details="Website UI/UX design project."
+            data-details-ja="ウェブサイトのUI/UXデザイン作品です。">
+            <div class="project-thumb-wrap">
+              <img src="assets/Web designs/web4.jpg" alt="Web design 4" data-alt-ja="ウェブデザイン 4" class="project-thumb" loading="lazy">
+              <div class="project-overlay" aria-hidden="true"><span class="project-view-badge" data-i18n>View Case Study</span></div>
+            </div>
+            <div class="project-meta-box">
+              <span class="project-category-tag" data-i18n>UI/UX // Web Design</span>
+              <h2 class="project-title" data-i18n>App UI Design</h2>
+              <p class="project-desc" data-i18n>Website UI/UX design project.</p>
+              <span class="project-hashtag">#Figma #AdobeXD #Illustrator #Photoshop #xyris #Rive</span>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    
+    <div class="modal-overlay" id="projectModal" aria-hidden="true">
+      <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+        <button class="modal-close-btn" id="modalClose" type="button" aria-label="Close project details">&times;</button>
+        <div class="modal-image-wrap">
+          <img id="modalImage" alt="">
+          <div class="modal-zoom-controls" id="modalZoomControls" hidden>
+            <label id="modalZoomLabel" for="modalZoomSlider">Zoom</label>
+            <input id="modalZoomSlider" type="range" min="1" max="4" step="0.1" value="1" aria-label="Zoom project image">
+            <output id="modalZoomValue" for="modalZoomSlider">100%</output>
+          </div>
+          <button class="modal-logo-nav modal-logo-nav--previous" id="modalPreviousLogo" type="button" aria-label="Previous logo" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+          </button>
+          <button class="modal-logo-nav modal-logo-nav--next" id="modalNextLogo" type="button" aria-label="Next logo" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cat" id="modalCategory"></div>
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <p class="modal-desc" id="modalDesc"></p>
+        </div>
+      </section>
+      <button class="modal-scroll-hint" id="modalScrollHint" type="button" aria-label="Scroll to see more" hidden>
+        <span data-i18n>See more</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 5v14m-7-7 7 7 7-7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>

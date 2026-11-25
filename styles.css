@@ -1206,7 +1206,7 @@ html[lang="ja"] .work-page .section-title { font-size: clamp(22px, 7vw, 34px); l
   .top { padding-block: 14px; }
   .top .wrap { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 6px; }
   .logo { min-width: 0; }
-  .logo img { width: clamp(62px, 20vw, 90px); max-width: 100%; }
+  .logo img { width: clamp(62px, 20vw, 90px); max-width: 100%; transform: translateX(-11px)}
   .tools { gap: 2px; }
   .pill a { padding: 7px 14px; font-size: 13px; }
   html[lang="ja"] .pill a { padding-inline: 5px; }

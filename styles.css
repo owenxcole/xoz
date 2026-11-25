@@ -492,7 +492,7 @@ body.project-modal-open .top { visibility: hidden; }
 
 .hero-cap { position: absolute; left: max(0px, calc((100% - 1180px) / 2)); box-sizing: border-box; width: min(100%, 1180px); padding-inline: max(var(--gut), env(safe-area-inset-left, 0px)); bottom: 50px; z-index: 5; display: flex; flex-direction: column; align-items: flex-start; text-align: left; font-family: var(--f-mono); }
 
-.hero-cap b { display: block; font-weight: 400; font-size: clamp(11px, 1.7vw, 14px); color: #c7d0cb; letter-spacing: .06em; margin-bottom: 6px;}
+.hero-cap b { display: block; font-weight: 400; font-size: clamp(11px, 1.7vw, 14px); color: #c7d0cb; letter-spacing: .02em; margin-bottom: 6px;}
 
 .hero-cap span { display: block; font-size: clamp(8px, 1.4vw, 11px); color: var(--pill); letter-spacing: .05em; margin-top: 0px; }
 .hero-links {
